@@ -5,7 +5,7 @@ setuptools.setup(
     version="0.1.0",
     author="Antoine Lain, Ian Simpson",
     author_email="Antoine.Lain@ed.ac.uk, Ian.Simpson@ed.ac.uk",
-    description="This repository automatically requests and extracts Full Text from Open Access PMC.",
+    description="This repository automatically requests and extracts Full Text from Open Access PMC for use in non-commercial research.",
     packages=setuptools.find_packages(),
     classifiers=[
         "Intended Audience :: Science/Research",
@@ -17,6 +17,7 @@ setuptools.setup(
 'wget',
 'python-dateutil',
 'IPython',
+'lxml',
 ],
     python_requires='>=3.6'
 )
